@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@300;500&display=swap');
+
+body {
+    background-image: linear-gradient(135deg, #136a8a, #267871);
+}
+
+.phone {
+    background-color: black;
+    width: 300px;
+    height: 550px;
+    margin-top: 8.5%;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 30px;
+    padding: 0.1px;
+}
+
+.header-text {
+    font-family: 'Lato', sans-serif;
+    font-size: 28.5px;
+    font-style: bold;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    margin-top: 10%;
+    
+}
+
+.dyn-island {
+    background-color: black;
+    width: 115px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 50px;
+    position: relative;
+}
+
+.dyn-camera {
+    background-color: rgb(39, 84, 207);
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    margin-left: 85px;
+    position: relative;
+    opacity: 0.8   
+}
+
+.image {
+    width: 300px;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: absolute;
+    top: 127.5px;
+    border-radius: 30px;
+}
