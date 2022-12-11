@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@300;500&display=swap');
+
+body {
+    background-color: #222222
+}
+
+div {
+    display: block;
+}
+
+.container {
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+.header, .intro {
+    font-weight: bold;
+    text-align: center;
+
+}
+
+code {
+    color: white;
+    background-image: transparent;
+}
+
+.highlight {
+    color: yellow;
+    text-decoration: none;
+}
+
+.theme-markdown {
+    margin-left: 25px;
+}
+
+li {
+    margin-left: 10px;
+}
