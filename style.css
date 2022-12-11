@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@300;500&display=swap');
 
 body {
-    background-color: #222222
+    background-color: #222222;
 }
 
 div {
@@ -30,9 +30,14 @@ code {
 }
 
 .theme-markdown {
-    margin-left: 25px;
+    margin-left: 20%;
 }
 
 li {
     margin-left: 10px;
+}
+
+.light {
+background-color: rgb(255, 255, 255);
+color: #000000;
 }

@@ -11,6 +11,8 @@
     <div class="container">
         <div class="header">
             <h1>Documentation Overview</h1>
+            <button class="dark-light-button">dark mode</button>
+            <button onclick="toggle()">Switch mode</button>
         </div>
         <div class="intro">
             <p>All of the articles in this documentation were created by Skilloir and GeneralT</p>
@@ -41,6 +43,11 @@
         </div>
     </div>
 
-
+    <script>
+        function toggle() {
+        var element = document.body;
+        element.classList.toggle("light");
+        }
+        </script>
 </body>
 </html>
