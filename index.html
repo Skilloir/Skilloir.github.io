@@ -4,18 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <title>Docs</title>
 </head>
 <body>
     <div class="container">
+        <div class="section-scroll">
+            <h1 class="scroll-header">Getting started</h1>
+            <a href="/" class="doc-overview">Documentation overview</a>
+        </div>
+
+
+
+
+
         <div class="header">
             <h1>Documentation Overview</h1>
-            <button class="dark-light-button">dark mode</button>
-            <button onclick="toggle()">Switch mode</button>
+            <div class="darkMode-div"></div><button onclick="darkMode()" class="darkMode-btn"></button>
+            <img src="images/moon.png" alt="dark" class="moon">
+             </div>
         </div>
         <div class="intro">
-            <p>All of the articles in this documentation were created by Skilloir and GeneralT</p>
+            <p>All of the articles in this documentation were created by Skilloir and General T.</p>
+            <p style="font-size:12px">Note, some things are not finished. Some things may not work properly or at all!</p>
         </div>
         <div class="theme-markdown">
             <h1>Introduction</h1>
@@ -39,15 +51,16 @@
                     <code>CTRL + K</code>
                      hotkey.
                 </p>
-            </div>
+            </div> <br>
+            <section id="information">
+                <h1>Getting started</h1>
+                <p>First off, you need a server. There are a variety of hosting options such as <button class="aternos" onclick="window.open('https:\/\/aternos.org')">Aternos</button>, <button class="dedicatedmc" onclick="window.open('https:\/\/dedicatedmc.io/')">DedicatedMC</button>, <button class="bloom" onclick="window.open('https:\/\/bloom.host/')">Bloom Hosting</button> and more!</p>
+                <p>If you wish to host a server on your own machine, check <a href="https://help.minecraft.net/hc/en-us/articles/360058525452-How-to-Setup-a-Minecraft-Java-Edition-Server">here</a></p>
+                <p><b>Setting up a server requires a lot of patience!</b> You need to take your time to ensure you do not make many mistakes along the way!</p>
+            </section>
         </div>
     </div>
-
-    <script>
-        function toggle() {
-        var element = document.body;
-        element.classList.toggle("light");
-        }
-        </script>
+<!-- brb -->
+    <script src="javascript/script.js"></script>
 </body>
 </html>
