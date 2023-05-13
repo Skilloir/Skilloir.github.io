@@ -4,64 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <title>Docs</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Cookie Clicker</title>
 </head>
 <body>
     <div class="container">
-        <div class="section-scroll">
-            <h1 class="scroll-header">Getting started</h1>
-            <a href="/" class="doc-overview">Documentation overview</a>
+        <div class="amount" id="amt">0</div>
+        <div class="click">
+            <button onclick="cookieClick(1)">+1</button>
         </div>
-
-
-
-
-
-        <div class="header">
-            <h1>Documentation Overview</h1>
-            <div>
-            <img src="images/moon.png" alt="dark" class="moon" onclick="darkMode()">
-        </div>
-        </div>
-        </div>
-        <div class="intro">
-            <p>All of the articles in this documentation were created by Skilloir and General T.</p>
-            <p style="font-size:12px">Note, some things are not finished. Some things may not work properly or at all!</p>
-        </div>
-        <div class="theme-markdown">
-            <h1>Introduction</h1>
-            <div class="article">
-                <p>Welcome to our Docs! Here you can find useful</p>
-                <p>information about getting started with a Minecraft</p>
-                <p>servers, frequently asked questions, and more! For the</p>
-                <p>sake of easy navigation, we've created a list of our</p>
-                <p>frequently used documents below.</p>
-                <p>Throughout all the docs you will see common syntaxes:</p>
-                <li>
-                    <code>[something}</code>
-                    - A 'variable', something you are supposed to change to your needs.
-                </li>
-                <li>
-                    <a class="highlight" href="/">Yellow text</a>
-                     and documents with [] lead to other guides or external websites.
-                </li>
-                <p>For easier navigation, you can use the 'search' function! Simply click the button in the</p>
-                <p>to right corner or use the
-                    <code>CTRL + K</code>
-                     hotkey.
-                </p>
-            </div> <br>
-            <section id="information">
-                <h1>Getting started</h1>
-                <p>First off, you need a server. There are a variety of hosting options such as <button class="aternos" onclick="window.open('https:\/\/aternos.org')">Aternos</button>, <button class="dedicatedmc" onclick="window.open('https:\/\/dedicatedmc.io/')">DedicatedMC</button>, <button class="bloom" onclick="window.open('https:\/\/bloom.host/')">Bloom Hosting</button> and more!</p>
-                <p>If you wish to host a server on your own machine, check <a href="https://help.minecraft.net/hc/en-us/articles/360058525452-How-to-Setup-a-Minecraft-Java-Edition-Server">here</a></p>
-                <p><b>Setting up a server requires a lot of patience!</b> You need to take your time to ensure you do not make many mistakes along the way!</p>
-            </section>
-        </div>
+        <div class="shop"></div>
     </div>
-<!-- brb -->
-    <script src="javascript/script.js"></script>
+
+    <script src="script.js"></script>
 </body>
 </html>
