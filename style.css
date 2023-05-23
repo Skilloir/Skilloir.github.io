@@ -15,7 +15,7 @@ body {
 /* Login Card */
 .login-card {
     width: 450px;
-    background: rgba(255, 255, 255, .5);
+    background: rgba(24, 26, 27, 0.5);
     padding: 4rem;
     border-radius: 10px;
     position: relative;
@@ -25,7 +25,7 @@ body {
     content: '';
     position: absolute;
     inset: 0;
-    background: rgba(255, 255, 255, .15);
+    background: rgba(24, 26, 27, 0.5);
     transform: rotate(-6deg);
     border-radius: 10px;
     z-index: -1;
